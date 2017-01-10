@@ -1,0 +1,24 @@
+{
+  "name": "UmmSaeedStockReleaseApp",
+  "scripts": {
+  },
+  "env": {
+    "SHOGUN_SECRET_TOKEN": {
+      "required": true
+    },
+    "SHOGUN_SITE_ID": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql",
+    "shogun"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
